@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+     <ImageView
+            android:id="@+id/image_first"
+            android:src="@drawable/androidpic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Happy Birthday Misbah"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/bottomtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image_first"
+            android:text="From Sharjil"
+            android:textSize="36sp"
+            android:layout_alignRight="@+id/image_first"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"/>
+
+    </RelativeLayout>
+
+
+
